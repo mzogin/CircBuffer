@@ -1,0 +1,2 @@
+#!/bin/bash
+cpplint.py --filter=-runtime/references, -build/header_guard --extensions=cpp,h *.cpp *.hpp
